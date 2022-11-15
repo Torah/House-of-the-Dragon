@@ -1,13 +1,22 @@
-# House-of-the-Dragon
+# House-of-the-Dragon 龙之家族
 Three basic guidelines were raised for a systematic redesignation of Arduino, ESP32, and rp2040 Rasp-Pico, etc. <i>Drogon, Rhaegal, and Viserion</i> were named for them, yes after Queen Danny's three dragons. These three suggestions also mention a quick connector and PCB designation layout for open hardware.
 
 May every creative idea fly freely with wings of unified and convenient development board. And may every maker fly as a dragonraider. May the electronic  creative activities more green and sustainable for earth and human society.
+
+![这是图片](https://github.com/ange1026/House-of-the-Dragon/blob/main/Background%20Medium.jpg "")
+
+<br />
+<br />
+<br />
+
 
 ## HouYi Shooting Suns  后羿射日
 
 In the past ten years, the development board of the maker circle has been releasing new models every year, and the corresponding supporting function expansion boards are also flooding. The resulting flood of e-waste is a problem that no responsible maker can ignore. How to start from ourselves and reduce the generation of e-waste, I have three solutions. First, it uses the Wang interface to unify the IO interface of the expansion board. This project introduces the second solution: taking the Houyi/Hybrid layout as an example to unify several common development boards.
 
 创客圈近十年来开发板每年都在出新款，相应的配套功能扩展板也在泛滥。由此带来的电子垃圾泛滥，是任何一位有责任心的创客都不能忽视的问题。如何从自身做起，减少电子垃圾的产生，我有三个方案。其一，是用王氏接口统一扩展板的IO接口。本文介绍第二个方案：以Houyi/Hybrid布局为例，统一若干款常见开发板。
+
+![后羿](https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/2e2eb9389b504fc2b1489155e8dde71190ef6d4e.jpg "后羿射日")
 
 The birth of Arduino around 2010 promoted the innovation and creation of electronic technology in many disciplines such as art and biology, and a series of functional expansion boards followed Arduino's pin layout, although the layout itself was a serendipitous event, and some people thought it was unsatisfactory. This phenomenon shows that the layout of the development board is currently inheriting history, neither long (enough for full compliance) nor short enough (to abandon), and has not been carefully studied to effectively standardize. Especially when I designed the Bagua keyboard, I was particularly impressed by the non-standard of different main control boards and firmware. For example, the Raspberry Pico's USB interface and metal contacts for power input are themselves a distinctive design of the Raspberry Pi, which is convenient for flying wires to connect to external power sources or USB devices. But once it needs to be made into a keyboard, it needs to solder additional metal spring probes to maintain the connection, and the price of spring probes is still high. So I moved them to the position of the unified pin header, which is also handled on the Raspberry Pi 40pin, but not necessarily on other development boards. More importantly, when the Bagua keyboard (the keyboard with the Bagua is listed as the matrix), I found that if I need to try other main controls, the PCB layout needs to be adjusted more, and this phenomenon is more widespread in the design of development boards for various main controls: obviously similar functions, such as realizing the control of a small RC car, or a greenhouse with controllable temperature and humidity, but because of the replacement of better performance or specific purpose chips, it is necessary to redesign the main control board, together with the redesigned expansion board. And these fixed-interface function shields are mostly idle after the tech competition. What a waste! This is a crime! To know that although the main body of the chip currently comes from the most widely distributed silicon element on the earth, how many processes, electricity, and water resources are required for the whole process from gravel to chip, and the large number of heavy metals contained in silicon-based chips also need to be recycled, and then there are also PCB boards in the manufacturing and recycling process There are also pollution and waste problems. So, if advertise yourself as a maker, at a time when environmental problems are so prominent, can you stop turning a blind eye to these old problems? Could we do better within our innovation activities, such as reducing all kinds of e-waste from the side before other green approaches such as carbon-based chips are mature?
 
@@ -32,7 +41,9 @@ The idea to remove eight and remain one in article 1st coincided with the ancien
 因为第1条去八留一的思想，和中国古代神话后羿(HouYi)射日的巧合，并且该倡议的设计规范是要用于改造包括ESP32、32u4等一众开发板的，所以我命名为Houyi/Hybrid板型布局。当然，其他芯片只要合适，也会陆续加入Houyi/Hybrid的板型设计中来，相应的功能扩展板，就有望同时兼容多款主控板，从而大量减少创新过程中的资源浪费，特别是创客们钱包的支出。因为芯片的可用IO脚数参差不齐，所以我目前的建议是去八留一，但留的一个GND具体留哪一个有待使用中进一步观察使用方便和习惯，并且当可用IO脚不足以填补去的八个位置时，建议富余的针脚焊盘悬空。
 
 
-
+<br />
+<br />
+<br />
 
 
 ## The Dragon Has Three Heads 龙有三个头
